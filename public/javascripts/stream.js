@@ -52,6 +52,7 @@ var MovieFilter = function(data){
     movie.stars = movie.stars.join(', ');
     return template(movie);
   };
+  
   var callbacks = {
     after_filter: function(result){
       $('#total_movies').text(result.length);
@@ -82,7 +83,7 @@ var MovieFilter = function(data){
     callbacks: callbacks,
     search: {input: '#searchbox'},
     streaming: {
-      data_url: 'data/top_movies_data.json', 
+      data_url: 'assets/data/top_movies_data.json', 
       stream_after: 1,
       batch_size: 50
     }
