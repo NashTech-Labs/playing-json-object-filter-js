@@ -1,10 +1,13 @@
 Playing Filter.js
-=============================
+=================
 
 Play framework with client-side JS filtering of JSON objects and rendering HTML snippets via jQuery.
 
-[Filter.js](https://github.com/jiren/filter.js) is client-side JSON objects filter to show/hide html elements.
+[Filter.js](https://github.com/jiren/filter.js) is client-side JSON objects filter to show/hide HTML elements.
 Multiple filter criteria can be specified and used in conjunction with each other.
+
+[Mustache.js](https://github.com/janl/mustache.js) is a logic-less template syntax. It can be used for HTML, config files, source code - anything.
+It works by expanding tags in a template using values provided in a hash or object.
 
 -----------------------------------------------------------------------
 ###Instructions :-
@@ -23,6 +26,7 @@ Multiple filter criteria can be specified and used in conjunction with each othe
 -----------------------------------------------------------------------
 * [Play Framework 2.3.3](http://www.playframework.com/)
 * [Filter.js](https://github.com/jiren/filter.js)
+* [Mustache.js](https://github.com/janl/mustache.js)
 * [Bootstrap 3.1.1](http://getbootstrap.com/css/)
 * [Bootswatch-United](http://bootswatch.com/united/)
 * [WebJars](http://www.webjars.org/)
